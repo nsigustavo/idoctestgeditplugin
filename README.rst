@@ -28,6 +28,7 @@ idoctestgeditplugin's development may be viewed and followed on github::
 
 
 Retrieve the source code using git::
+
     $ git clone git://github.com/nsigustavo/idoctestgeditplugin.git
 
 
