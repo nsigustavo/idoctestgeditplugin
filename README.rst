@@ -3,7 +3,13 @@
 Doctest interactive Plugin
 ==========================
 
-The idoctestgeditplugin searches for pieces of text that look like interactive Python sessions, and then executes those sessions with shift+Enter.
+The idoctestgeditplugin searches for pieces of text that look like interactive Python sessions, and then executes those sessions.
+Use <Shift><Enter> to activate the snippet and see a returned code in the document.
+
+Example::
+
+    >>> 1 + 1 # click shift+enter
+    2         #      <-| and returned
 
 
 
@@ -17,6 +23,9 @@ Install
     $ cd nsigustavo-idoctestgeditplugin*
     $ mv *  ~/.gnome2/gedit/plugins/
 
+In gedit main menu go to: Edit -> Preferences
+In Preferences dialog go to Plugins tab
+Find 'interactive doctest' in plugin list and check it
 
 
 Getting involved !
