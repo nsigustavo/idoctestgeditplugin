@@ -9,7 +9,9 @@ The idoctestgeditplugin searches for pieces of text that look like interactive P
 
 Install
 =======
+
 ::
+
     $ wget http://github.com/nsigustavo/idoctestgeditplugin/tarball/master
     $ tar -xzvf nsigustavo-idoctestgeditplugin*.tar.gz
     $ cd nsigustavo-idoctestgeditplugin*
@@ -28,6 +30,5 @@ idoctestgeditplugin's development may be viewed and followed on github::
 Retrieve the source code using git::
     $ git clone git://github.com/nsigustavo/idoctestgeditplugin.git
 
-Type CTRL+ALT+F your source code will be formatted, currently it has only support for Ruby source files, but more languages will be added by request and a configuration screen is planned for the next version. 
 
 
